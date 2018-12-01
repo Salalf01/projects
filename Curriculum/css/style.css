@@ -1,0 +1,285 @@
+
+.header{
+    background-image: url(../img/background.jpg);
+    background-attachment: fixed;
+    background-color: #026bf3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.header-overlay{
+    background-color: rgba(31, 31, 31, 0.75);
+}
+.name{
+    color: #fff !important;
+    text-align: center;
+   margin-top: 100px;
+    margin-left: 70px;
+}
+
+.img{
+    border-radius: 150px;
+    margin: 57px;
+    margin-left: 80px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fff;
+}
+
+
+i{
+    color: #084B8A;
+}
+
+.local{
+    text-align: center;
+}
+
+p{
+    font-weight: 500;
+}
+
+.descripcion{
+    padding-top: 20px;
+}
+
+.contacto h2{
+    text-align: center;
+}
+
+.contacto p{
+    margin-top: 10px;
+    margin-left: 90px;
+    font-size: 14px;
+
+}
+
+.perfil{
+    text-align: justify;
+    padding-top: 20px;
+}
+ 
+.perfil h2{
+    text-align: center;
+}
+.perfil p{
+    margin-top: 20px;
+    font-size: 16px;
+    text-indent: 20px;
+    
+}
+
+.habilidades{
+    margin-top: 30px;
+    background-color: #222121;
+    padding-bottom: 50px;
+}
+.title{
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: -10px;
+}
+.habilidades h2{
+    text-align: center;
+    color: #fff;
+    transition: 1s;
+   
+}
+
+.habilidades h3{
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.habilidades p{
+    color: #fff;
+
+}
+
+
+      
+.habilidades h2:hover{
+    color: #222121;
+   
+}
+
+.habilidades div i{
+    font-size: 80px;
+    margin-top: 45px;
+    
+}
+
+.fa-html5{
+     color: #F35E07;
+     transition: 1s;
+}
+
+.fa-html5:hover{
+    transform: scale(2);
+    color: #E2802A;
+    animation-name: rainbowh;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes rainbowh{
+    0%{
+        color: #F35E07;
+    }
+    50%{
+        color: #fff;
+    }
+    100%{
+        color: #E2802A
+    }
+}
+.fa-css3-alt{
+    color: #41A2F6;
+    margin-left: -30px;
+    transition: 1s;
+
+}
+.fa-css3-alt:hover{
+ transform: scale(2);
+    color: #41A2F6;
+    animation-name: rainbowc;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes rainbowc{
+    0%{
+        color: #084B8A;
+    }
+    50%{
+        color: #fff;
+    }
+    100%{
+        color: #41A2F6;
+    }
+}
+.fa-js{
+    color: #F3C655;
+    margin-left: -70px;
+    transition: 1s;
+}
+.fa-js:hover{
+    transform: scale(2);
+    color: #41A2F6;
+    animation-name: rainbowj;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rainbowj{
+     0%{
+        color: #F3C655;
+    }
+    50%, 70%{
+        color: #fff;
+    }
+    100%{
+        color: #F3C645;
+    }
+
+}
+.progress{
+    margin-top: 80px;
+
+}
+.pro-css{
+    margin-top: 130px;
+}
+.pro-js{
+    margin-top: 110px;
+}
+.frmk{
+    margin-left: 40px;
+    margin-top: 40px;
+ 
+
+    
+}
+
+
+
+.fa-php{
+    margin-left: -30px;
+    margin-top: 15px !important;
+    transition: 1s;
+}
+.fa-php:hover{
+    transform: scale(2);
+    color: #41A2F6;
+}
+.pro-php{
+    margin-top: 100px;
+}
+
+.frame p{
+    color: #fff;
+    margin-top: 73px;
+    
+}
+.frmk{
+    margin-top: -10px;
+    margin-left: -5px;
+}
+
+.estudios{
+    padding-top: 30px;
+}
+.estudios h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+.certificaciones2{
+    margin-top: 20px;
+}
+
+.idiomas{
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #222121;
+    color: #fff;
+
+}
+
+.idiomas h3{
+    padding-top: 56px;
+    
+}
+
+
+.idiomas p{
+    margin-top: 65px;
+}
+
+.pro{
+    margin-top: -10px;
+}
+
+.card{
+  
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.platzi{
+    padding-top: 20px;
+}
+.udemy{
+    padding-top: 20px;
+}
+
+.ven{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
